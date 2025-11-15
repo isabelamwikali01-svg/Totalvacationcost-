@@ -1,0 +1,9 @@
+public class totalvacationcost {
+    public static void main (String[] args){
+        Double accommodation = 500.00;
+        Double meals =  200.00 ;
+        Double activities =  300.00;
+        Double totalcost = accommodation + meals + activities ;
+        System.out.println ("totalvacationcost :$" + totalcost);
+    }
+}
